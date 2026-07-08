@@ -363,3 +363,136 @@ tbody tr{
     color: red;
     text-decoration: none;
 }
+
+.deals-page{
+    background: #f8f8f8;
+    padding: 40px;
+}
+
+.deal-hero{
+    color: white ;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg,rgba(117, 104, 104, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(115, 98, 98, 1) 100%);
+}
+
+.deal-hero h1{
+    font-size: 40px;
+}
+
+.deal-hero p{
+    font-size: 18px;
+}
+
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.section-titel{
+    margin: 30px 0px 20px;
+    font-size: 28px;
+    color: #000;
+}
+
+.combo-section{
+    padding: 40px;
+    background: #fff;
+}
+
+.combo-card{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+    text-align: center;
+}
+
+.combo-card:hover{
+    transform: translateY(-8px);
+}
+
+.combo-card h4{
+    margin: 10px 0px;
+}
+
+.combo-card p{
+    margin: 10px 0px;
+}
+
+.combo-card span{
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.combo-card button{
+    background: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.combo-card button:hover{
+    background-color: darkred;
+}
+
+.combo-card img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.deal-card:hover{
+    transform: translateY(-8px);
+}
+
+.deal-card span{
+    background-color: #555;
+    padding: 10px 8PX;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.deal-card h3{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.red{
+    border-top: 5px solid red;
+}
+
+.yellow{
+    border-top: 5px solid rgb(255, 255, 0);
+}
+
+.green{
+    border-top: 5px solid rgb(68, 100, 19);
+}
